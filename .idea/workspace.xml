@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6276b2e9-169d-430f-9ab7-4f7d254bb31e" name="Default Changelist" comment="Add initial set of files">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+    <list default="true" id="6276b2e9-169d-430f-9ab7-4f7d254bb31e" name="Default Changelist" comment="auto Config Symphony">
+      <change afterPath="$PROJECT_DIR$/config/packages/security.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/composer.lock" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/composer.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/symfony.lock" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/symfony.lock" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/Controller/.gitignore" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.env" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/.env.local" root0="FORCE_HIGHLIGHTING" />
@@ -98,6 +99,14 @@
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
       <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
       <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
     </include_path>
   </component>
   <component name="ProjectId" id="1uGGY7s8axM9IWrD4h5YgO48IME" />
@@ -169,7 +178,7 @@
       <workItem from="1624318728671" duration="16003000" />
       <workItem from="1624530706501" duration="2033000" />
       <workItem from="1624575188749" duration="3585000" />
-      <workItem from="1624578795480" duration="49000" />
+      <workItem from="1624578795480" duration="357000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1624530806368</created>
@@ -185,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624530924581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="auto Config Symphony">
+      <created>1624578901970</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1624578901970</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,6 +222,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Add initial set of files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add initial set of files" />
+    <MESSAGE value="auto Config Symphony" />
+    <option name="LAST_COMMIT_MESSAGE" value="auto Config Symphony" />
   </component>
 </project>
