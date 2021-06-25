@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6276b2e9-169d-430f-9ab7-4f7d254bb31e" name="Default Changelist" comment="добавление бандла maker" />
+    <list default="true" id="6276b2e9-169d-430f-9ab7-4f7d254bb31e" name="Default Changelist" comment="добавление профиллировщика">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +31,6 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="HARD" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/composer.lock" root0="FORCE_HIGHLIGHTING" />
@@ -114,6 +118,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1uGGY7s8axM9IWrD4h5YgO48IME" />
@@ -185,7 +192,7 @@
       <workItem from="1624318728671" duration="16003000" />
       <workItem from="1624530706501" duration="2033000" />
       <workItem from="1624575188749" duration="3585000" />
-      <workItem from="1624578795480" duration="2099000" />
+      <workItem from="1624578795480" duration="3326000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1624530806368</created>
@@ -264,7 +271,21 @@
       <option name="project" value="LOCAL" />
       <updated>1624580868535</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="добавление профиллировщика">
+      <created>1624580988049</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1624580988049</updated>
+    </task>
+    <task id="LOCAL-00013" summary="добавление профиллировщика">
+      <created>1624581241159</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1624581241159</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -291,6 +312,7 @@
     <MESSAGE value="добавление бандла для работы с формой" />
     <MESSAGE value="добавление бандла для валидации данных" />
     <MESSAGE value="добавление бандла maker" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление бандла maker" />
+    <MESSAGE value="добавление профиллировщика" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление профиллировщика" />
   </component>
 </project>
