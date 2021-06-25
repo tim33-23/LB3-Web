@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6276b2e9-169d-430f-9ab7-4f7d254bb31e" name="Default Changelist" comment="добавление бандла для работы с формой" />
+    <list default="true" id="6276b2e9-169d-430f-9ab7-4f7d254bb31e" name="Default Changelist" comment="добавление бандла maker" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +111,9 @@
       <path value="$PROJECT_DIR$/vendor/symfony/form" />
       <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
     </include_path>
   </component>
   <component name="ProjectId" id="1uGGY7s8axM9IWrD4h5YgO48IME" />
@@ -182,7 +185,7 @@
       <workItem from="1624318728671" duration="16003000" />
       <workItem from="1624530706501" duration="2033000" />
       <workItem from="1624575188749" duration="3585000" />
-      <workItem from="1624578795480" duration="975000" />
+      <workItem from="1624578795480" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="Add initial set of files">
       <created>1624530806368</created>
@@ -233,7 +236,28 @@
       <option name="project" value="LOCAL" />
       <updated>1624579391277</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="добавление бандла для работы с формой">
+      <created>1624579797970</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1624579797970</updated>
+    </task>
+    <task id="LOCAL-00009" summary="добавление бандла для валидации данных">
+      <created>1624579883636</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1624579883636</updated>
+    </task>
+    <task id="LOCAL-00010" summary="добавление бандла maker">
+      <created>1624580386303</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1624580386303</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,6 +282,8 @@
     <MESSAGE value="добавление security бандла" />
     <MESSAGE value="добавление шаблонизатора twig" />
     <MESSAGE value="добавление бандла для работы с формой" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавление бандла для работы с формой" />
+    <MESSAGE value="добавление бандла для валидации данных" />
+    <MESSAGE value="добавление бандла maker" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавление бандла maker" />
   </component>
 </project>
